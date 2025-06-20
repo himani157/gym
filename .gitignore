@@ -5,6 +5,7 @@ dist/
 # Environment variables
 .env
 .env.local
+config.env
 
 # IDE & OS files
 .DS_Store
