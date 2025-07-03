@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <header>
-      <p>ELITE EDGE FITNESS</p>
+      <p>GlowFit Studio</p>
     </header>
   );
 };

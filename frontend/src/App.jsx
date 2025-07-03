@@ -13,14 +13,19 @@ import BMICalculator from "./components/BMICalculator";
 import Footer from "./components/Footer";
 
 const App = () => {
+
   return (
     <Router>
       <Navbar />
       <Hero />
       <WorkoutSessions />
       <Gallery />
-      <Pricing />
-      <Contact />
+      <div id="plans">
+        <Pricing />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <BMICalculator />
       <Footer />
       <ToastContainer theme="dark" position="top-center" />
