@@ -11,6 +11,7 @@ import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import BMICalculator from "./components/BMICalculator";
 import Footer from "./components/Footer";
+import NewsletterFloatingButton from "./components/NewsletterFloatingButton";
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
       </div>
       <BMICalculator />
       <Footer />
+      <NewsletterFloatingButton />
       <ToastContainer theme="dark" position="top-center" />
     </Router>
   );
