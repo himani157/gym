@@ -27,7 +27,7 @@ export default function NewsletterForm({ onClose }) {
         e.preventDefault();
 
         try {
-            await fetch('http://localhost:4000/api/newsletter/subscribe', {
+            await fetch('https://gym-xlhv.onrender.com/api/newsletter/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData),

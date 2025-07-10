@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: "http://localhost:5173", //[process.env.FRONTEND_URL], // or hardcode as: "http://localhost:5173"
+    origin: [process.env.FRONTEND_URL], // or hardcode as: "http://localhost:5173"
     methods: ["GET", "POST"],
     credentials: true,
   })
