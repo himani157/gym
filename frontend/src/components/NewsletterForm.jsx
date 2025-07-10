@@ -45,7 +45,7 @@ export default function NewsletterForm({ onClose }) {
             position: "fixed",
             bottom: "100px",
             right: "30px",
-            width: "400px",
+            width: "300px",
             backgroundColor: "#fff0f5", // light pink
             border: "2px solid #ff66b2",
             borderRadius: "12px",

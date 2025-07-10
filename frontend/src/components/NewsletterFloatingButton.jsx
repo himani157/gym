@@ -22,7 +22,7 @@ export default function NewsletterFloatingButton() {
                     fontSize: "30px",
                     cursor: "pointer",
                     boxShadow: "0 0 12px rgba(132, 128, 128, 0.81)",
-                    zIndex: 9995,
+                    zIndex: 9998,
                 }}
                 title="Join Newsletter"
             >
